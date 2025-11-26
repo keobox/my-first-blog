@@ -7,3 +7,10 @@ git commit -am "Initial commit, project setup with uv"
 https://relay.firefox.com
 https://www.pythonanywhere.com
 Create API token
+whoami
+pwd
+cd
+ls
+cd Desktop
+pwd
+mkdir practice
