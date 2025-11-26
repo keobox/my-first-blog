@@ -25,3 +25,5 @@ rm -r practice
 exit
 https://ss64.com/
 python
+code python_intro.py
+python python_intro.py
