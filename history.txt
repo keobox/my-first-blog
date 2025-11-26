@@ -30,3 +30,4 @@ python python_intro.py
 django-admin startproject mysite .
 python manage.py migrate
 python manage.py runserver
+python manage.py startapp blog
