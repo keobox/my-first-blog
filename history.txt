@@ -17,3 +17,10 @@ mkdir practice
 cd practice
 mkdir test
 ls
+cd ..
+cd ..
+pwd
+cd
+rm -r practice
+exit
+https://ss64.com/
