@@ -28,3 +28,4 @@ python
 code python_intro.py
 python python_intro.py
 django-admin startproject mysite .
+python manage.py migrate
