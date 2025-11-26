@@ -24,3 +24,4 @@ cd
 rm -r practice
 exit
 https://ss64.com/
+python
