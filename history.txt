@@ -1,6 +1,9 @@
- mkdir djangogirls
- cd djangogirls
- uv venv -p python3.14 myenv
- source myenv/bin/activate
- git add .gitignore .python-version README.md pyproject.toml
- git commit -am "Initial commit, project setup with uv"
+mkdir djangogirls
+cd djangogirls
+uv venv -p python3.14 myenv
+source myenv/bin/activate
+git add .gitignore .python-version README.md pyproject.toml
+git commit -am "Initial commit, project setup with uv"
+https://relay.firefox.com
+https://www.pythonanywhere.com
+Create API token
