@@ -49,3 +49,4 @@ git push -u origin main
 git commit -m "Changed the HTML for the site."
 git push
 python manage.py shell
+git commit -m "Modified templates to display posts from database"
