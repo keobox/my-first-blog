@@ -3,3 +3,5 @@ pa_autoconfigure_django.py --python=3.10 https://github.com/keobox/my-first-blog
 python manage.py createsuperuser
 https://keoforx.pythonanywhere.com/admin/
 git pull
+workon keoforx.pythonanywhere.com
+python manage.py collectstatic
