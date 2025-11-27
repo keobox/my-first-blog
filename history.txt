@@ -51,3 +51,4 @@ git push
 python manage.py shell
 git commit -m "Modified templates to display posts from database"
 mkdir -p blog/static/css
+mkdir -p blog/templates/blog/icons/
