@@ -43,3 +43,6 @@ cat .gitignore
 git status
 git add .
 git commit -m "My Django Girls app, first commit"
+git remote add origin https://github.com/keobox/my-first-blog.git
+cat ~/.ssh/django-girls-tok.txt
+git push -u origin main
