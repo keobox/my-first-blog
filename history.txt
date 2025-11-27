@@ -35,3 +35,8 @@ python manage.py makemigrations blog
 python manage.py migrate blog
 http://127.0.0.1:8000/admin/
 python manage.py createsuperuser
+https://git-scm.com/
+git init
+git config --global user.name "Your Name"
+git config --global user.email you@example.com
+cat .gitignore
