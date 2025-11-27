@@ -1,6 +1,6 @@
 mkdir djangogirls
 cd djangogirls
-uv venv -p python3.14 myenv
+uv venv -p python3.12 myenv
 source myenv/bin/activate
 git add .gitignore .python-version README.md pyproject.toml
 git commit -am "Initial commit, project setup with uv"
@@ -33,3 +33,5 @@ python manage.py runserver
 python manage.py startapp blog
 python manage.py makemigrations blog
 python manage.py migrate blog
+http://127.0.0.1:8000/admin/
+python manage.py createsuperuser
