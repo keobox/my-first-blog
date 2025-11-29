@@ -15,7 +15,10 @@
         </div>
         {% else %}
         <aside class="actions">
-            <a class="btn btn-secondary" role="button" href="{% url 'post_publish' pk=post.pk %}">Publish</a>
+            <form method="post" action="{% url 'post_publish' pk=post.pk %}" style="display: inline;">
+                {% csrf_token %}
+            <button type="submit" class="btn btn-secondary">Publish</button>
+            </form>
         </aside>
         {% endif %}
         <h2>{{ post.title }}</h2>
